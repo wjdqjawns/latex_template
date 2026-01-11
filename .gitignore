@@ -1,14 +1,14 @@
-build/
-*.synctex.gz
-*.aux
-*.log
-*.out
-*.fls
-*.fdb_latexmk
-*.bbl
-*.blg
-*.bcf
-*.run.xml
-*.toc
+# build/
+# *.synctex.gz
+# *.aux
+# *.log
+# *.out
+# *.fls
+# *.fdb_latexmk
+# *.bbl
+# *.blg
+# *.bcf
+# *.run.xml
+# *.toc
 
-bibliography/pdf/
+# bibliography/pdf/
