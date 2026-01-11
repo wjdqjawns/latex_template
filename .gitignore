@@ -10,3 +10,5 @@ build/
 *.bcf
 *.run.xml
 *.toc
+
+bibliography/pdf/
