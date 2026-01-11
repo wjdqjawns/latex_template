@@ -1,0 +1,31 @@
+\makeatletter
+\def\input@path{{packages/}{vendor/}{sections/}{bibliography/}}
+\makeatother
+
+\documentclass[a4paper,11pt]{article}
+
+\usepackage{general}
+
+\title{Sample Report Title}
+\author{Your Name}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+This is a sample abstract.
+\end{abstract}
+
+\section{Introduction}
+This is an example citation \cite{smith2023}.
+
+\section{Method}
+
+\section{Conclusion}
+
+\bibliographystyle{plain}
+\bibliography{reference}
+
+\end{document}

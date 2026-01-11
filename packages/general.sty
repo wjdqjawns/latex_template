@@ -1,0 +1,29 @@
+\ProvidesPackage{general}
+
+% ---------- Encoding & language ----------
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+
+% ---------- Math ----------
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+% ---------- Graphics ----------
+\usepackage{graphicx}
+\usepackage{float}
+
+% ---------- References ----------
+\usepackage{cite}
+
+% ---------- Hyperlinks ----------
+\usepackage[
+  colorlinks=true,
+  linkcolor=black,
+  citecolor=black,
+  urlcolor=black
+]{hyperref}
+
+% ---------- Useful macros ----------
+\newcommand{\figref}[1]{Fig.~\ref{#1}}
+\newcommand{\tabref}[1]{Table~\ref{#1}}
+\newcommand{\eqnref}[1]{Eq.~(\ref{#1})}
